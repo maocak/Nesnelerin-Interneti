@@ -13,7 +13,7 @@ SoftwareSerial Serial1(2, 3); //RX, TX bağlantıları pin3 ve pin2 dijital pinl
 #define DHTTYPE DHT11  // Sensör türü DHT11 ya da DHT22 olarak seçilir. 
 DHT dht(DHT11pin, DHTTYPE);   //pin çıkışı ve türü tanımlanan DHT sensörü için nesne oluşturulur.   
 
-char *api_anahtar="Q5EOSH1ND9Z0MWUS"; //ThingSpeak'dan elde edilen Write API numarası yazılır. 
+char *api_anahtar="Q5EOSH1ND***"; //ThingSpeak'dan elde edilen Write API numarası yazılır. 
 static char postUrl[150]; //Statik char kullanılmasının nedeni, postURL değişkeninin 150 ile sınırlı kalmasını sağlamak içindir.
 int nem,sicaklik; //Nem ve sıcaklık değerleri integer olarak atanır. 
 void httpGet(String ip, String path, int port=80); //httpGet fonksiyonu yardımıyla yollanacak veriler için,
@@ -44,7 +44,7 @@ connect_wifi("AT",1000); //ESP8266 modülüne AT komutu yollanarak, modülün ha
 connect_wifi("AT+CWMODE=1",1000); //ESP8266, STA moduna alınır. Seri port ekranda OK yazar. 1 saniye beklenir.
 connect_wifi("AT+CWQAP",1000);   //ESP8266 herhangi bir ağa bağlıysa çıkmak için kullanılır. Seri port ekranda OK yazar. 1 saniye beklenir.
 connect_wifi("AT+RST",5000); //ESP8266 modülü resetler ve kullanıma hazır hale getirir. 5 saniye bekler. Seri port ekranda OK yazar. 
-connect_wifi("AT+CWJAP=\"NetMASTER Uydunet-9167\",\"7f6dbd25e1fec512\"",10000); // Kullanılacak Wifi(Kablosuz ağ) adı ve şifresi yazılmalıdır. 
+connect_wifi("AT+CWJAP=\"NetMASTER Uydunet-9167\",\"şifre***\"",10000); // Kullanılacak Wifi(Kablosuz ağ) adı ve şifresi yazılmalıdır. 
 //1 dakika beklenir. 
 Serial.println("Wifi bağlandı."); //Bağlantı başarılı ise, seri port ekrana yazdırılır. 
 lcd.clear(); //LCD ekran temizlenir. 
