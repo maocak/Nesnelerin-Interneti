@@ -6,8 +6,8 @@
 
 #define FIREBASE_HOST "parkuygulama.firebaseio.com"   // Firebase içinde yer alan proje ID ismi eklenir.
 #define FIREBASE_AUTH "nwgpHOs8dEY7G4QnIrLPM9A4XUbZwWrMwUNBoPLC"     // Firebase'in oluşturduğu gizli anahtar girilir.
-#define WIFI_SSID "MAO"    // Ev ya da işyerinde bulunan kablosuz ağ ismi(WiFi) girilir. 
-#define WIFI_PASSWORD "furkanirem777"   //Wifi internet şifresi girilir.
+#define WIFI_SSID "***"    // Ev ya da işyerinde bulunan kablosuz ağ ismi(WiFi) girilir. 
+#define WIFI_PASSWORD "***"   //Wifi internet şifresi girilir.
 
 String durum = "";    //durum adlı değişken string olarak atanır. 
 String veritabanidurum = ""; //veritabanidurum adlı değişken string olarak atanır.
