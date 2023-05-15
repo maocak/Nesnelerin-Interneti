@@ -12,8 +12,8 @@
 char auth[] = "dOQCOJZH7ZKOEUpVKALlRO3ifFss807J";
 
 // Kablosuz ağ adı ve şifresi yazılmalıdır. 
-char ssid[] = "NetMASTER Uydunet-9167";
-char pass[] = "7f6dbd25e1fec512";
+char ssid[] = "*****";
+char pass[] = "*****";
 
 // Arduino UNO üzerinden seri veri akışını sağlayacak olan kütüphane eklenir. 
 #include <SoftwareSerial.h>
