@@ -10,8 +10,8 @@
  
 SFE_BMP180 basinc; //basinc altında bir BM180 sensör nesnesi oluşturulur. 
 DHT dht(DHTPIN, DHTTYPE); //dht isminde bir nem ve sıcaklık sensörü nesnesi oluşturulur. 
-const char* ssid     = "MAO"; //Wi-fi kullanıcı ismi yazılır.
-const char* password = "furkanirem777"; //Wi-fi kullanıcı şifresi yazılır.
+const char* ssid     = "***"; //Wi-fi kullanıcı ismi yazılır.
+const char* password = "***"; //Wi-fi kullanıcı şifresi yazılır.
  
 char status;
 double T,P,basinc0; //Mutlak basınç ölçümü P değerinde saklanır. 
