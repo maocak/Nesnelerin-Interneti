@@ -4,8 +4,8 @@
 #include <SimpleTimer.h> //Zamanlama ile ilgili işleri yürütecek olan kütüphane koda eklenir.
  
 char auth[] = "geuNceA2nzJ1LKpg05ral-x_6XKKdPSD"; //Blynk programında yollanan emailde bulunan Auth Token yazılır. 
-char ssid[] = "NetMASTER Uydunet-9167"; //Kullanılan kablosuz ağın ismi yazılır. 
-char pass[] = "7f6dbd25e1fec512";       //Kullanılan kablosuz ağın şifresi yazılır. 
+char ssid[] = "***"; //Kullanılan kablosuz ağın ismi yazılır. 
+char pass[] = "***";       //Kullanılan kablosuz ağın şifresi yazılır. 
  
 SimpleTimer timer; //timer isminde bir nesne oluşturulur. 
 
