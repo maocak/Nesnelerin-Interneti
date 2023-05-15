@@ -2,8 +2,8 @@
 #include <ESP8266WiFi.h> // ESP8266 kütüphanesi eklenir.
 String apiKey = "U5UJJDKIJAY1JQIO";     // Thinspeak API numarası yazılır. 
 const char* server = "184.106.153.149"; //Thinspeak IP adresi
-const char *ssid =  "MAO";     // Kullanılan kablosuz ağ ismi
-const char *pass =  "furkanirem777"; // Kablosuz ağ şifresi
+const char *ssid =  "***";     // Kullanılan kablosuz ağ ismi
+const char *pass =  "***"; // Kablosuz ağ şifresi
 #define DHTPIN D3  // DHT11 sensörünün bağlandığı dijital pin numarası 
 DHT dht(DHTPIN, DHT11); //pin çıkışı ve türü tanımlanan DHT sensörü için nesne oluşturulur.
 WiFiClient client; //Client.connect() öğesinde tanımlandığı şekilde belirtilen bir İnternet IP adresine ve bağlantı noktasına bağlanabilen bir istemci oluşturur.
