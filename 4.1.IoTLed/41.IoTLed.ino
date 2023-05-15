@@ -3,8 +3,8 @@
 
 #define FIREBASE_HOST "leduygulama-f8029.firebaseio.com"  // Firebase içinde girilen proje ID ismi eklenir.
 #define FIREBASE_AUTH "TDktbopnB7jK9XSuXbT49uwqvNuXVAxkgnkOSpAG"  // Firebase'in oluşturduğu gizli anahtar girilir.
-#define WIFI_SSID "MAO"                   // Ev ya da işyerinde bulunan kablosuz ağ ismi(WiFi) girilir.  
-#define WIFI_PASSWORD "furkanirem777"     //Wifi internet şifresi girilir. 
+#define WIFI_SSID "*****"                   // Ev ya da işyerinde bulunan kablosuz ağ ismi(WiFi) girilir.  
+#define WIFI_PASSWORD "*****     //Wifi internet şifresi girilir. 
 
 String fireStatus = "";   // Firebase'den okunacak olan led durumu string olarak atanır. 
 int led = D3;  // NodeMCU kartının D3 dijital pini LED için atanır. 
