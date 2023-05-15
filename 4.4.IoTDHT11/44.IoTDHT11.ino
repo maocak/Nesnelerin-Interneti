@@ -4,8 +4,8 @@
 
 #define FIREBASE_HOST "dht11-b61a8.firebaseio.com"     // Firebase içinde yer alan proje ID ismi eklenir.
 #define FIREBASE_AUTH "c8WFqahVHBXy8y25XPVcg0qPfWJ6zELHP6b65dEx"   // Firebase'in oluşturduğu gizli anahtar girilir.
-#define WIFI_SSID "MAO"                    // Ev ya da işyerinde bulunan kablosuz ağ ismi(WiFi) girilir. 
-#define WIFI_PASSWORD "furkanirem777"      //Wifi internet şifresi girilir.
+#define WIFI_SSID "***"                    // Ev ya da işyerinde bulunan kablosuz ağ ismi(WiFi) girilir. 
+#define WIFI_PASSWORD "***"      //Wifi internet şifresi girilir.
  
 #define DHTPIN D4      // NodeMCU kartının D4 dijital pini DHT11 için atanır.
 #define DHTTYPE DHT11  // Sensör türü DHT11 ya da DHT22 olarak seçilir. 
