@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h> //Öncelikle, Wi-Fi işlevlerine erişmek için ESP8266WiFi.h kütüphanesini kullanıyoruz.
  
-const char* ssid = "MAO"; //Wi-fi kullanıcı ismi ve şifresi yazılır.
-const char* password = "furkanirem777";
+const char* ssid = "***"; //Wi-fi kullanıcı ismi ve şifresi yazılır.
+const char* password = "***";
  
 int led= D3; // LED için D3 digital pin kullanılmaktadır. 
 WiFiServer server(80); //Sonra, WifiServer sunucu nesnesi oluşturulur. 
